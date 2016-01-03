@@ -1,0 +1,10 @@
+Codigo escrito na linguagem Ruby.
+Para executar o programa sat.rb, utilize o seguinte comando:
+    ./sat.rb "expressao" (dadas as devidas permissoes de execucao)
+    ou
+    ruby sat.rb "expressao"
+
+Exemplos:
+    ./sat.rb "(x1#x2#x3)&(x2#x3#x4)&(x3#x4#x5)&(x4#x5#x6)&(x5#x6#x7)&(x6#x7#x8)&(x7#x8#x9)&(x8#x9#x10)"
+    ruby sat.rb "(x1#x1#x1) & (~x1#~x1#~x1) "
+    ./sat.rb "x1 & ~x1 "
