@@ -1,3 +1,6 @@
+Autor: Lucas Affonso Xavier de Morais
+GRR20118372
+
 Codigo escrito na linguagem Ruby.
 Para executar o programa sat.rb, utilize o seguinte comando:
     ./sat.rb "expressao" (dadas as devidas permissoes de execucao)
