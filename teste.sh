@@ -6,6 +6,7 @@ for file in $(ls teste) ; do
     input=$(cat teste/$file)
     # echo teste
     # echo $input
-    ./sat.rb "$input"
+    # ./sat.rb "$input"
+    ruby sat.rb "$input"
     echo
 done
